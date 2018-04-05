@@ -1,3 +1,9 @@
-page-slide6 {
-
+.background {
+    background-image:url(../assets/imgs/image.jpg); 
+    background: url(../assets/imgs/image.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1.5;
 }

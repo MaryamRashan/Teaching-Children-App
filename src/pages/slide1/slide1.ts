@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Slide2Page } from '../slide2/slide2'
+import { HomePage } from '../home/home'
 
 /**
  * Generated class for the Slide1Page page.
@@ -25,6 +26,11 @@ export class Slide1Page {
   swipeEvent(e) {
     if (e.direction == 2) {
       this.navCtrl.push('Slide2Page');
+    }
+  }
+  swipeEventBack(e) {
+    if (e.direction == 4) {
+      this.navCtrl.push('HomePage');
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "tctTabs",
-  "app_id": "",
+  "app_id": "47a28513",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

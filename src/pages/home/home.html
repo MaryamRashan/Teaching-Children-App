@@ -4,9 +4,6 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-<h1>About</h1>
-<p>This is an app with Slide pages in it.</p>
-<ion-item (click)="gotocontents()">Contents</ion-item>
-<ion-item (click)="gotoslides()">Slides</ion-item>
+<ion-content (swipe)="swipeEvent($event)" padding>
+<h1>SDFTS</h1>
 </ion-content>

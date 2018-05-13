@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Slide5Page } from '../slide5/slide5'
-import { Slide7Page } from '../slide7/slide7'
+import { Slide6Page } from '../slide6/slide6'
 /**
- * Generated class for the Slide6Page page.
+ * Generated class for the Slide7Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,25 +10,25 @@ import { Slide7Page } from '../slide7/slide7'
 
 @IonicPage()
 @Component({
-  selector: 'page-slide6',
-  templateUrl: 'slide6.html',
+  selector: 'page-slide7',
+  templateUrl: 'slide7.html',
 })
-export class Slide6Page {
+export class Slide7Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Slide6Page');
+    console.log('ionViewDidLoad Slide7Page');
   }
   swipeEvent(e) {
     if (e.direction == 2) {
-      this.navCtrl.push('Slide7Page');
+      this.navCtrl.push('Slide8Page');
     }
   }
   swipeEventBack(e) {
     if (e.direction == 4) {
-      this.navCtrl.push('Slide5Page');
+      this.navCtrl.push('Slide6Page');
     }
   }
 }

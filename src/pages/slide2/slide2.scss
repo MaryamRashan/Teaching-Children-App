@@ -1,9 +1,13 @@
 .background {
-    background-image:url(../assets/imgs/image.jpg); 
-    background: url(../assets/imgs/image.jpg) no-repeat fixed;
+    background-image:url(http://backgroundcheckall.com/wp-content/uploads/2017/12/simple-light-blue-background-5.jpg); 
+    background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/simple-light-blue-background-5.jpg) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     opacity: 1.5;
+}
+
+page-Slide2 p {
+    font-size: 16px
 }

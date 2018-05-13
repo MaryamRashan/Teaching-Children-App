@@ -6,6 +6,8 @@ import { Slide3Page } from '../slide3/slide3'
 import { Slide4Page } from '../slide4/slide4'
 import { Slide5Page } from '../slide5/slide5'
 import { Slide6Page } from '../slide6/slide6'
+import { HomePage } from '../home/home'
+
 
 @Component({
   selector: 'page-contents',
@@ -33,5 +35,15 @@ export class ContentsPage {
   }
   gotosixth() {
     this.navCtrl.push(Slide6Page, )
+  }
+  swipeEvent(e) {
+    if (e.direction == 2) {
+      this.navCtrl.push('Slide1Page');
+    }
+  }
+  swipeEventBack(e) {
+    if (e.direction == 4) {
+      this.navCtrl.push('HomePage');
+    }
   }
 }

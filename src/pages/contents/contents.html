@@ -6,7 +6,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content (swipe)="swipeEvent($event)" (swipe)="swipeEventBack($event)" padding>
   <ion-list>
     <ion-item (click)="gotofirst()">1</ion-item>
     <ion-item (click)="gotosecond()">2</ion-item>

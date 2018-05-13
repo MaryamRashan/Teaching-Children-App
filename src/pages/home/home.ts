@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ContentsPage } from '../contents/contents';
-import { Slide1Page } from '../slide1/slide1';
 
 @Component({
   selector: 'page-home',
@@ -12,10 +11,9 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-  gotocontents() {
-    this.navCtrl.push(ContentsPage, )
-  }
-  gotoslides() {
-    this.navCtrl.push(Slide1Page, )
+  swipeEvent(e) {
+    if (e.direction == 2) {
+      this.navCtrl.push('ContentsPage');
+    }
   }
 }

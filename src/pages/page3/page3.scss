@@ -1,0 +1,18 @@
+// .side {
+//     background-image:url(https://s31.postimg.cc/hcaxdk717/side.png); 
+//     background: url(https://s31.postimg.cc/hcaxdk717/side.png) no-repeat fixed;
+//     opacity: 1.5;
+//     height: 50px;
+// }
+page-page3 .side {
+    position: fixed;
+    right: 10px;
+    height: 80%;
+    vertical-align: middle;
+}
+page-page3 {
+    background-color: white;
+}
+.no-scroll .scroll-content{
+    overflow: hidden;
+}

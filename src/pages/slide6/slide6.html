@@ -6,12 +6,46 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title></ion-title>
+  <ion-navbar hideBackButton>
+    <button ion-button menuToggle class="menuButton">
+      <ion-icon name="menu"></ion-icon>
+    </button>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content (swipe)="swipeEvent($event)" (swipe)="swipeEventBack($event)" padding class="background">
+  <p>
+    Ali
+    <img style="height: 16px" src='https://muslimmatters.org/wp-content/plugins/islamic-graphics/img/black/svg/ranha.svg'> reported:
+  </p>
+  <p>
+    The Messenger of Allaah
+    <img style="height: 16px" src='https://muslimmatters.org/wp-content/plugins/islamic-graphics/img/black/svg/saw.svg'> said to me, "Recite:
+  </p>
+  <p style="font-size: 30px; text-align: center; font-weight: 500; font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+    اللَّهُمَّ اهْدِنِي ، وَسَدِّدْنِي
+  </p>
+  <p style="font-size: 18px; text-align: center">
+    O Allaah! Direct me to the Right Path and make me adhere to the Straight Path.
+  </p>
+  <p>
+    In another narration,
+  </p>
+  <p class="arabic">
+    اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى ، وَالسَّدَادَ
+  </p>
+  <p class="translation">
+    O Allaah! I beg you for gudiance and uprightness.
+    <br>
+    <span class="source">
+      Sahih Muslim
+    </span>
+  </p>
 </ion-content>
+<div class="footnotes" padding>
+  <p class="page-number">
+    10
+  </p>
+</div>

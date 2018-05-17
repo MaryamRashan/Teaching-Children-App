@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { ContentsPage } from '../contents/contents'
+import { Page3Page } from '../page3/page3'
 import { Slide2Page } from '../slide2/slide2'
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the Slide1Page page.
@@ -16,12 +17,16 @@ import { Slide2Page } from '../slide2/slide2'
   templateUrl: 'slide1.html',
 })
 export class Slide1Page {
-
+  
+  tab2Root = Slide2Page;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Slide1Page');
+  }
+  gotohome() {
+    this.navCtrl.push(HomePage, )
   }
   swipeEvent(e) {
     if (e.direction == 2) {
@@ -30,7 +35,7 @@ export class Slide1Page {
   }
   swipeEventBack(e) {
     if (e.direction == 4) {
-      this.navCtrl.push('ContentsPage');
+      this.navCtrl.push('Page3Page');
     }
   }
 }

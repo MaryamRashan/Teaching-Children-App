@@ -1,13 +1,51 @@
-.background {
-    background-image:url(http://backgroundcheckall.com/wp-content/uploads/2017/12/simple-light-blue-background-5.jpg); 
-    background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/simple-light-blue-background-5.jpg) no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    opacity: 1.5;
+// .background {
+//     background-image:url(http://backgroundcheckall.com/wp-content/uploads/2017/12/simple-light-blue-background-5.jpg); 
+//     background: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/simple-light-blue-background-5.jpg) no-repeat fixed;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//     opacity: 1.5;
+// }
+
+page-Slide1 p {
+    font-size: 18px
 }
 
-p {
-    font-size: 18px
+.footnotes {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.menuButton {
+    position: fixed;
+    left: 10px;
+}
+.page-number {
+    font-size: 13px; 
+    text-align: center; 
+    font-style: italic; 
+}
+
+.arabic {
+    font-size: 30px; 
+    text-align: center; 
+    font-weight: 500; 
+    font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.translation {
+    font-size: 18px; 
+    text-align: center
+}
+
+.source {
+    font-size: 13px
+}
+.transliteration {
+    font-style: italic;
+    text-align: center;
 }

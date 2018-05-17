@@ -4,6 +4,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { ContentsPage } from '../pages/contents/contents'
+import { Page1Page } from '../pages/page1/page1'
+import { Page2Page } from '../pages/page2/page2'
+import { Page3Page } from '../pages/page3/page3'
 import { Slide1Page } from '../pages/slide1/slide1'
 import { Slide2Page } from '../pages/slide2/slide2'
 import { Slide3Page } from '../pages/slide3/slide3'
@@ -45,33 +49,35 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: '1', component: Slide1Page },
-      { title: '2', component: Slide2Page },
-      { title: '3', component: Slide3Page },
-      { title: '4', component: Slide4Page },
-      { title: '5', component: Slide5Page },
-      { title: '6', component: Slide6Page },
-      { title: '7', component: Slide7Page },
-      { title: '8', component: Slide8Page },
-      { title: '9', component: Slide9Page },
-      { title: '10', component: Slide10Page },
-      { title: '11', component: Slide11Page },
-      { title: '12', component: Slide12Page },
-      { title: '13', component: Slide13Page },
-      { title: '14', component: Slide14Page },
-      { title: '15', component: Slide15Page },
-      { title: '16', component: Slide16Page },
-      { title: '17', component: Slide17Page },
-      { title: '18', component: Slide18Page },
-      { title: '19', component: Slide19Page },
-      { title: '20', component: Slide20Page },
-      { title: '21', component: Slide21Page },
-      { title: '22', component: Slide22Page },
-      { title: '23', component: Slide23Page },
-      { title: '24', component: Slide24Page },
-      { title: '25', component: Slide25Page },
-      { title: '26', component: Slide26Page },
+      { title: 'Cover', component: HomePage },
+      { title: '2', component: Page1Page },
+      { title: '3', component: Page2Page },
+      { title: '4', component: Page3Page },
+      { title: '5', component: Slide1Page },
+      { title: '6', component: Slide2Page },
+      { title: '7', component: Slide3Page },
+      { title: '8', component: Slide4Page },
+      { title: '9', component: Slide5Page },
+      { title: '10', component: Slide6Page },
+      { title: '11', component: Slide7Page },
+      { title: '12', component: Slide8Page },
+      { title: '13', component: Slide9Page },
+      { title: '14', component: Slide10Page },
+      { title: '15', component: Slide11Page },
+      { title: '16', component: Slide12Page },
+      { title: '17', component: Slide13Page },
+      { title: '18', component: Slide14Page },
+      { title: '19', component: Slide15Page },
+      { title: '20', component: Slide16Page },
+      { title: '21', component: Slide17Page },
+      { title: '22', component: Slide18Page },
+      { title: '23', component: Slide19Page },
+      { title: '24', component: Slide20Page },
+      { title: '25', component: Slide21Page },
+      { title: '26', component: Slide22Page },
+      { title: '27', component: Slide23Page },
+      { title: '28', component: Slide24Page },
+      { title: 'Cover', component: Slide26Page },
     ];
 
   }
@@ -80,8 +86,8 @@ export class MyApp {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      this.statusBar.styleDefault();
       this.splashScreen.hide();
+      this.statusBar.styleDefault();
     });
   }
 

@@ -12,18 +12,31 @@ page-Slide1 p {
     font-size: 18px
 }
 
-.footnotes {
-    position: absolute; 
-    bottom: 0px; 
-    width: 100%; 
-    padding: 10px;
-    padding-right: 20px;
+.menu {
+    color: black; 
+    font-weight: bolder; 
+    font-size: 25px
+}
+
+.menuBar {
+    position: fixed; 
+    top: 15px; 
+    background-color: rgba(255, 255, 255, 0)
 }
 
 .menuButton {
     position: fixed;
     left: 10px;
 }
+
+.footnotes {
+    position: absoluAAte; 
+    bottom: 0px; 
+    width: 100%; 
+    padding: 10px;
+    padding-right: 20px;
+}
+
 .page-number {
     font-size: 13px; 
     text-align: center; 
@@ -48,4 +61,5 @@ page-Slide1 p {
 .transliteration {
     font-style: italic;
     text-align: center;
+    font-size: 14px;
 }

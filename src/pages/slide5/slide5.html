@@ -5,12 +5,11 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
   <ion-navbar hideBackButton>
-    <button ion-button menuToggle class="menuButton">
-      <ion-icon name="menu"></ion-icon>
-    </button>
   </ion-navbar>
+  <button ion-button menuToggle class="menuBar">
+    <ion-icon name="menu" isActive="true" class="menu"></ion-icon>
+  </button>
 </ion-header>
 
 
@@ -23,13 +22,16 @@
     <img style="height: 16px" src='https://muslimmatters.org/wp-content/plugins/islamic-graphics/img/black/svg/ranha.svg'> said, "He
     <img style="height: 16px" src="https://muslimmatters.org/wp-content/plugins/islamic-graphics/img/black/svg/saw.svg"> supplicated frequently,
   </p>
-  <p style="font-size: 30px; text-align: center; font-weight: 500; font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+  <p class="arabic">
     يَا مُقَلِّبَ الْقلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ
   </p>
-  <p style="font-size: 18px; text-align: center">
+  <p class="transliteration">
+    Ya muqallibal qulubi, thabbit qalbi ala dinika
+  </p>
+  <p class="translation">
     O Controller of the hearts make my heart steadfast in Your religion.
     <br>
-    <span style="font-size: 12px">at Tirmidhi</span>
+    <span class="source">at Tirmidhi</span>
   </p>
 </ion-content>
 <div class="footnotes" padding>

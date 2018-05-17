@@ -5,13 +5,11 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
   <ion-navbar hideBackButton>
-    <button ion-button menuToggle class="menuButton">
-      <ion-icon name="menu"></ion-icon>
-    </button>
   </ion-navbar>
-
+  <button ion-button menuToggle class="menuBar">
+    <ion-icon name="menu" isActive="true" class="menu"></ion-icon>
+  </button>
 </ion-header>
 
 
@@ -24,10 +22,13 @@
     The Messenger of Allaah
     <img style="height: 16px" src='https://muslimmatters.org/wp-content/plugins/islamic-graphics/img/black/svg/saw.svg'> said to me, "Recite:
   </p>
-  <p style="font-size: 30px; text-align: center; font-weight: 500; font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+  <p class="arabic">
     اللَّهُمَّ اهْدِنِي ، وَسَدِّدْنِي
   </p>
-  <p style="font-size: 18px; text-align: center">
+  <p class="transliteration">
+    Allahumma hdini wa saddidni
+  </p>
+  <p class="translation">
     O Allaah! Direct me to the Right Path and make me adhere to the Straight Path.
   </p>
   <p>
@@ -35,6 +36,9 @@
   </p>
   <p class="arabic">
     اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى ، وَالسَّدَادَ
+  </p>
+  <p class="transliteration">
+    Allahumma inni as'aluk alhuda was sadad
   </p>
   <p class="translation">
     O Allaah! I beg you for gudiance and uprightness.

@@ -1,8 +1,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar hideBackButton>
   </ion-navbar>
+  <button ion-button menuToggle class="menuBar">
+    <ion-icon name="menu" isActive="true" class="menu"></ion-icon>
+  </button>
 </ion-header>
 
 <ion-content (swipe)="swipeEvent($event)" padding class="cover">

@@ -29,7 +29,7 @@ export class Slide18Page {
     }
   }
   swipeEventBack(e) {
-    if (e.direction == 6) {
+    if (e.direction == 4) {
       this.navCtrl.push('Slide17Page');
     }
   }

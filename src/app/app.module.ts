@@ -5,6 +5,9 @@ import { MyApp } from './app.component';
 
 import { ContentsPageModule } from '../pages/contents/contents.module';
 import { HomePageModule } from '../pages/home/home.module';
+import { Page1PageModule } from '../pages/page1/page1.module'
+import { Page2PageModule } from '../pages/page2/page2.module'
+import { Page3PageModule } from '../pages/page3/page3.module'
 import { Slide1PageModule } from '../pages/slide1/slide1.module'
 import { Slide2PageModule } from '../pages/slide2/slide2.module'
 import { Slide3PageModule } from '../pages/slide3/slide3.module'
@@ -37,6 +40,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home'
 import { ContentsPage } from '../pages/contents/contents'
+import { Page1Page } from '../pages/page1/page1'
+import { Page2Page } from '../pages/page2/page2'
+import { Page3Page } from '../pages/page3/page3'
 import { Slide1Page } from '../pages/slide1/slide1'
 import { Slide2Page } from '../pages/slide2/slide2'
 import { Slide3Page } from '../pages/slide3/slide3'
@@ -73,6 +79,9 @@ import { Slide26Page } from '../pages/slide26/slide26'
     IonicModule.forRoot(MyApp),
     HomePageModule,
     ContentsPageModule,
+    Page1PageModule,
+    Page2PageModule,
+    Page3PageModule,
     Slide1PageModule,
     Slide2PageModule,
     Slide3PageModule,
@@ -105,6 +114,9 @@ import { Slide26Page } from '../pages/slide26/slide26'
     MyApp,
     ContentsPage,
     HomePage,
+    Page1Page,
+    Page2Page,
+    Page3Page,
     Slide1Page,
     Slide2Page,
     Slide3Page,

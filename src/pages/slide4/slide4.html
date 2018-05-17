@@ -5,13 +5,11 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-    <ion-navbar hideBackButton>
-        <button ion-button menuToggle class="menuButton">
-          <ion-icon name="menu"></ion-icon>
-        </button>
-      </ion-navbar>
-
+  <ion-navbar hideBackButton>
+  </ion-navbar>
+  <button ion-button menuToggle class="menuBar">
+    <ion-icon name="menu" isActive="true" class="menu"></ion-icon>
+  </button>
 </ion-header>
 
 
@@ -22,13 +20,16 @@
     <br> The Messenger of Allaah
     <img style="height: 16px" src="https://muslimmatters.org/wp-content/plugins/islamic-graphics/img/black/svg/saw.svg"> supplicated:
   </p>
-  <p style="font-size: 30px; text-align: center; font-weight: 500; font-family: 'SIL Scherezade', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+  <p class="arabic">
     اللَّهُمَّ مُصَرِّفَ الْقُلُوبِ صَرِّفْ قُلُوبَنَا عَلَى طَاعَتِكَ
   </p>
-  <p style="font-size: 18px; text-align: center">
+  <p class="transliteration">
+    Allahumma musarrifal qulubi, sarrif qulubana ala ta'atika
+  </p>
+  <p class="translation">
     O Allaah! Controller of the hearts, direct our hearts to your obedience.
     <br>
-    <span style="font-size: 12px">Sahih Muslim</span>
+    <span class="source">Sahih Muslim</span>
   </p>
 </ion-content>
 <div class="footnotes" padding>
